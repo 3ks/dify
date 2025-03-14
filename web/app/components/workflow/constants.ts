@@ -470,6 +470,10 @@ export const TEMPLATE_TRANSFORM_OUTPUT_STRUCT: Var[] = [
 
 export const QUESTION_CLASSIFIER_OUTPUT_STRUCT = [
   {
+    variable: 'class_id',
+    type: VarType.string,
+  },
+  {
     variable: 'class_name',
     type: VarType.string,
   },
